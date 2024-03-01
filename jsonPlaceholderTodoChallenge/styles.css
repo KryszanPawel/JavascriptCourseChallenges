@@ -1,0 +1,22 @@
+ul {
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 15px;
+  max-width: 300px;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  border: solid 1px;
+  border-radius: 3px;
+  margin: 5px;
+  max-width: fit-content;
+  padding: 5px;
+}
+
+.done {
+  background-color: rgb(80, 80, 80);
+  color: aliceblue;
+}
